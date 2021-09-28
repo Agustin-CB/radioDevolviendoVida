@@ -1,0 +1,759 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.informacion-general-titulo{
+    margin-top: 30px;
+    color: white;
+    background-color: #ec7775;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.reuniones-generales{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    background-image: url(/imagenes/fondo140.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.reuniones-generales ul{
+    margin-top:0px;
+    padding: 50px;
+    list-style: none;
+}
+
+.reuniones-generales img{
+    padding: 30px;
+}
+
+
+.espacio-video{
+    display: flex;
+    width: 41%;
+    justify-content: flex-end;
+}
+
+.centrado-texto li h3{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.reuniones-generales .centrado-texto{
+    margin-top: 38px;
+    color: white;
+    text-align: center;
+}
+
+.reuniones-generales h2{
+    padding-left: 28px;
+    color: white;
+}
+
+.reuniones-generales .horarios-varios{
+    width: 200px;
+}
+
+.fondo{
+    background-image: url(/imagenes/imagen1.jpg);
+    height: 39vh;
+}
+
+
+.logo img{
+    width: 10%;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+.fondo .logo img{
+    margin-top: 20px;
+}
+
+
+.fondo nav{
+    width: 100%;
+    overflow: auto;
+}
+
+.fondo ul{
+    padding: 0;
+    margin: 70px 0 0 650px;
+    list-style: none;
+}
+
+.fondo li{
+    float: left;
+}
+
+.fondo nav a{
+    width: 100px;
+    display: block;
+    padding: 0px 0px 0 0px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.fondo nav a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titulo-principal h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+}
+
+.titulo-principal h3{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.centrado .carousel{
+    margin-top: 30px;
+    width: 50%;
+    height: 50vh;
+}
+
+
+.centrado .carousel img{
+    width: 100%;
+    height: 50vh;
+}
+
+.centrado .carousel .imagen1{
+    width: 100%;
+}
+
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #ec7775;
+    height: 60vh;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+
+    .titulo1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        background-color: #E86664;
+        color: whitesmoke;
+    }
+
+
+    .ancho .carousel{
+        width: 80%;
+    }
+
+
+    .contenedor-secundario{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #ec7775;
+    }
+
+    .contenedor-secundario img{
+        padding: 30px;
+    }
+
+    .secundario {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 80%;
+        }
+        
+        .imagen-1 { grid-area: 1 / 1 / 2 / 2; }
+        .imagen-2 { grid-area: 1 / 2 / 2 / 3; }
+
+        .secundario .imagen-1 img{
+            width: 100%;
+        }
+        .secundario .imagen-2 img{
+            width: 100%;
+        }
+
+
+        .centrar-carousel{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            width: 100%;
+            background-color: #ec7775;
+            height: 275vh;
+        }
+
+        .centrar-carousel .contenedor-tercero{
+            margin-top: 10px;
+            width: 90%;
+            height: 268vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel1{
+            width: 55%;
+            padding-bottom: 20px;
+           
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel2{
+            width: 55%;
+            
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel3{
+            width: 55%;
+            padding-top: 30px;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel4{
+            width: 55%;
+            padding-top: 30px;
+            
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel1 img{
+            width: 100%;
+            height: 60vh;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel2 img{
+            width: 100%;
+            height: 80vh;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel3 img{
+            width: 100%;
+            height: 50vh;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel4 img{
+            width: 100%;
+            height: 50vh;
+        }
+
+        .centrar-carousel h2{
+            color: white;
+            text-align: center;
+            font-family: 'Indie Flower', cursive;
+        }
+
+
+    .footer-basic {
+        padding:40px 0;
+        background-color:#282d32;
+        color:white;
+        margin-top: 30px;
+      }
+      
+      .footer-basic ul {
+        padding:0;
+        list-style:none;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        margin-bottom:0;
+      }
+      
+      .footer-basic li {
+        padding:0 10px;
+      }
+      
+      .footer-basic ul a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+      }
+      
+      .footer-basic ul a:hover {
+        opacity:1;
+      }
+      
+      .footer-basic .social {
+        text-align:center;
+        padding-bottom:25px;
+      }
+      
+      .footer-basic .social > a {
+        font-size:24px;
+        width:40px;
+        height:40px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #ccc;
+        margin:0 8px;
+        color:inherit;
+        opacity:0.75;
+      }
+      
+      .footer-basic .social > a:hover {
+        opacity:0.9;
+      }
+      
+      .footer-basic .copyright {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+        margin-bottom:0;
+      }
+
+
+      @media screen and (max-width: 1440px) {
+
+            
+          .reuniones-generales{
+              width: 100%;
+          }
+
+          .reuniones-generales iframe{
+              width: 500px;
+              height: 450px;
+          }
+
+          .centrar-carousel{
+              height: 280vh;
+          }
+
+          .centrar-carousel .contenedor-tercero{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              height: 275vh;
+          }
+
+          .centrar-carousel .contenedor-tercero .carousel1{
+              width: 65%;
+          }
+
+          .centrar-carousel .contenedor-tercero .carousel2{
+            width: 65%;
+        }
+
+        
+        .centrar-carousel .contenedor-tercero .carousel3{
+            width: 65%;
+        }
+
+        
+        .centrar-carousel .contenedor-tercero .carousel4{
+            width: 65%;
+        }
+
+
+
+      }
+
+
+      @media screen and (max-width: 1024px) {
+          
+            .fondo{
+                height: 45vh;
+            }
+
+            .logo img{
+                width: 13%;
+            }
+    
+    
+            .fondo nav{
+              width: 100%;
+              overflow: auto;
+            }
+    
+            .fondo ul{
+                padding: 0;
+                margin: 60px 0 0 280px;
+                list-style: none;
+            }
+    
+            .titulo-principal{
+                margin-top: 70px;
+            }
+    
+            .titulo-principal h1{
+                font-family: 'Indie Flower', cursive;
+                font-size: 50px;
+            }
+
+            .espacio-video{
+                display: none;
+            }
+    
+
+
+
+        .contenedor-principal {
+            display: flex;
+            flex-direction: column;
+            background-color: #ec7775;
+            width: 100%;
+            height: 120vh;
+            }
+
+
+            .contenedor-secundario .secundario{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .centrar-carousel{
+                height: 290vh;
+            }
+  
+            .centrar-carousel .contenedor-tercero{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 285vh;
+            }
+  
+            .centrar-carousel .contenedor-tercero .carousel1{
+                width: 65%;
+            }
+  
+            .centrar-carousel .contenedor-tercero .carousel2{
+              width: 65%;
+          }
+  
+          
+          .centrar-carousel .contenedor-tercero .carousel3{
+              width: 65%;
+          }
+  
+          
+          .centrar-carousel .contenedor-tercero .carousel4{
+              width: 65%;
+          }
+
+      }
+
+
+      @media screen and (max-width: 768px) {
+
+        .logo img{
+            width: 15%;
+        }
+
+
+        .fondo nav{
+          width: 100%;
+          overflow: auto;
+        }
+
+        .fondo ul{
+            padding: 0;
+            margin: 60px 0 0 200px;
+            list-style: none;
+        }
+
+        .titulo-principal{
+            margin-top: 70px;
+        }
+
+        .titulo-principal h1{
+            font-family: 'Indie Flower', cursive;
+            font-size: 50px;
+        }
+
+          .reuniones-generales{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .reuniones-generales ul li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+     
+
+    .centrar-carousel{
+        height: 290vh;
+    }
+
+
+      }
+
+
+      @media screen and (max-width: 425px) {
+
+        .logo img{
+            width: 20%;
+        }
+
+
+        .fondo nav{
+          width: 100%;
+          overflow: auto;
+        }
+
+        .fondo ul{
+            padding: 0;
+            margin: 60px 0 0 120px;
+            list-style: none;
+        }
+
+        .titulo-principal{
+            margin-top: 50px;
+        }
+
+        .titulo-principal h1{
+            font-family: 'Indie Flower', cursive;
+            font-size: 27px;
+        }
+
+        .titulo-principal h3{
+            margin-top: 25px;
+            font-size: 20px;
+        }
+
+
+        .reuniones-generales{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .reuniones-generales ul li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .reuniones-generales h2{
+            font-size: 20px;
+        }
+
+        .reuniones-generales .centrado-texto p{
+            font-size: 20px;
+        }
+
+
+
+
+    .contenedor-principal {
+        display: flex;
+        flex-direction: column;
+        background-color: #ec7775;
+        width: 100%;
+        height: 140vh;
+        }
+
+
+        .contenedor-principal .div1 .centrado{
+            width: 100%;
+            height: 70vh;
+        }
+
+        .contenedor-principal .carousel{
+            width: 100%;
+            height: 60vh;
+        }
+
+        .contenedor-secundario .secundario{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .centrar-carousel{
+            height: 290vh;
+        }
+
+        .centrar-carousel .contenedor-tercero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 285vh;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel1{
+            width: 100%;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel2{
+          width: 100%;
+      }
+
+      
+      .centrar-carousel .contenedor-tercero .carousel3{
+          width: 100%;
+      }
+
+      
+      .centrar-carousel .contenedor-tercero .carousel4{
+          width: 100%;
+      }
+    }
+
+
+
+    @media screen and (max-width: 375px) {
+
+        .logo img{
+            width: 25%;
+        }
+
+        .fondo{
+            height: 55vh;
+        }
+
+        .fondo nav{
+          width: 100%;
+          overflow: auto;
+        }
+
+        .fondo ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 30px 0 0 170px;
+            list-style: none;
+        }
+
+        .titulo-principal{
+            margin-top: 10px;
+        }
+
+        .titulo-principal h1{
+            font-family: 'Indie Flower', cursive;
+            font-size: 30px;
+        }
+
+
+        .centrar-carousel{
+            height: 290vh;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel1{
+            width: 100%;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel2{
+          width: 100%;
+
+      }
+
+      
+      .centrar-carousel .contenedor-tercero .carousel3{
+          width: 100%;
+      }
+
+      
+      .centrar-carousel .contenedor-tercero .carousel4{
+          width: 100%;
+      }
+
+
+    }
+
+
+    @media screen and (max-width: 320px) {
+
+        .logo img{
+            width: 25%;
+        }
+
+
+        .fondo nav{
+          width: 100%;
+          overflow: auto;
+        }
+
+        .fondo ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 10px 0 0 130px;
+            list-style: none;
+        }
+
+        .titulo-principal{
+            margin-top: 10px;
+        }
+
+        .centrar-carousel{
+            height: 255vh;
+        }
+
+        .centrar-carousel .contenedor-tercero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 250vh;
+        }
+
+        .titulo-principal h1{
+            font-family: 'Indie Flower', cursive;
+            font-size: 30px;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel1 img{
+            height: 40vh;
+        }
+
+        .centrar-carousel .contenedor-tercero .carousel2 img{
+            height: 40vh;
+        }
+
+
+    }
+
+
